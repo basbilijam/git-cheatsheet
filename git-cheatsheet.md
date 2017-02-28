@@ -6,7 +6,7 @@ Creates a new local repository with the specified name
 $ git clone [url]
 Downloads a project and its entire version history
 
-2 Make changes
+2 Making changes
 
 $ git status
 Lists all new or modified files to be committed
@@ -34,3 +34,20 @@ Adds and commits all changes with a message
 
 $ git push
 Pushes changes
+
+3 Branching and merging
+
+$ git branch
+Lists all local branches in the current repository
+
+$ git branch [branch-name]
+Creates a new branch
+
+$ git checkout [branch-name]
+Switches to the specified branch and updates the working directory
+
+$ git merge [branch]
+Combines the specified branch’s history into the current branch
+
+$ git branch -d [branch-name]
+Deletes the specified branch
