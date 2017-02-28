@@ -51,3 +51,5 @@ Combines the specified branch’s history into the current branch
 
 $ git branch -d [branch-name]
 Deletes the specified branch
+
+4 test new commit
