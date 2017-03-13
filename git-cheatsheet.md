@@ -33,7 +33,13 @@ $ git commit -a -m "$1"
 Adds and commits all changes with a message
 
 $ git push
-Pushes changes
+Pushes changes to online repository on GitHub
+
+$ git stash
+Get rid of any uncommitted changes
+
+$ git reset --hard "log number"
+go back to previous commit (panic button)
 
 3 Branching and merging
 
@@ -51,5 +57,8 @@ Combines the specified branch’s history into the current branch
 
 $ git branch -d [branch-name]
 Deletes the specified branch
+
+$ git rebase master
+get new work on top of other commits in other branches --> reposition your work at the end of branch (most up to date) (first pull from the master, than checkout branch you are working in)
 
 4 test new commit
